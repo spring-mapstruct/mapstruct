@@ -10,14 +10,8 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>org.mapstruct</groupId>
-        <artifactId>mapstruct-parent</artifactId>
-        <version>1.6.0-SNAPSHOT</version>
-        <relativePath>parent/pom.xml</relativePath>
-    </parent>
-
-    <artifactId>mapstruct-aggregator</artifactId>
+    <groupId>io.github.spring-mapstruct</groupId>
+    <artifactId>mapstruct</artifactId>
     <packaging>pom</packaging>
     <name>MapStruct Aggregator</name>
 
@@ -51,9 +45,9 @@
 
     <!-- Required here as the maven-release-plugin will otherwise get the URL wrong -->
     <scm>
-        <connection>scm:git:git://github.com/mapstruct/mapstruct.git</connection>
-        <developerConnection>scm:git:git@github.com:mapstruct/mapstruct.git</developerConnection>
-        <url>https://github.com/mapstruct/mapstruct/</url>
+        <connection>scm:git:git://github.com/spring-mapstruct/mapstruct.git</connection>
+        <developerConnection>scm:git:git@github.com:spring-mapstruct/mapstruct.git</developerConnection>
+        <url>https://github.com/spring-mapstruct/mapstruct/</url>
         <tag>HEAD</tag>
     </scm>
 
